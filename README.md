@@ -60,12 +60,7 @@ README.md
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-repo/jobconnect.git
-    ```
-
-2. Start the MongoDB server:
-    ```bash
-    sudo service mongod start
+    git clone https://github.com/FYP/jobconnect.git
     ```
 
 3. Navigate to the `backend` directory and install dependencies:
@@ -105,5 +100,3 @@ MONGO_URI=your_mongodb_uri
 
 ## Contribution
 Contributions are welcome. Please create an issue or submit a pull request for any feature requests or bug fixes.
-
-
