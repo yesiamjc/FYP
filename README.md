@@ -54,7 +54,7 @@ Jobconnect is a final year project created by a team of four members: Joy Chakra
 ## Setup Instructions
 ### Prerequisites
 - Node.js
-- MongoDB
+- MongoDB Atlas
 
 ### Installation
 1. Clone the repository:
