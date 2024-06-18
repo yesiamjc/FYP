@@ -134,7 +134,7 @@ const Login = (props) => {
         <Grid item>
           <Button
             variant="contained"
-            color="primary"
+            style={{ backgroundColor: 'purple', color: 'white' }}
             onClick={() => handleLogin()}
             className={classes.submitButton}
           >

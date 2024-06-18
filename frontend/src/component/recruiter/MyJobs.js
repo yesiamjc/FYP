@@ -179,7 +179,7 @@ const JobTile = (props) => {
           <Grid item xs>
             <Button
               variant="contained"
-              color="primary"
+              style={{ backgroundColor: 'purple', color: 'white' }}
               className={classes.statusBlock}
               onClick={() => handleClick(`/job/applications/${job._id}`)}
             >
@@ -668,7 +668,7 @@ const FilterPopup = (props) => {
             <Button
               variant="contained"
               color="primary"
-              style={{ padding: "10px 50px" }}
+              style={{ padding: "10px 50px", backgroundColor: 'purple', color:'white' }}
               onClick={() => getData()}
             >
               Apply

@@ -586,7 +586,7 @@ const ApplicationTile = (props) => {
               .join(", ")}
           </Grid>
           <Grid item>
-            SOP: {application.sop !== "" ? application.sop : "Not Submitted"}
+            About Him: {application.sop !== "" ? application.sop : "Not Submitted"}
           </Grid>
           <Grid item>
             {application.jobApplicant.skills.map((skill) => (

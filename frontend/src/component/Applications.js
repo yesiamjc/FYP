@@ -179,6 +179,7 @@ const ApplicationTile = (props) => {
                   fetchRating();
                   setOpen(true);
                 }}
+                style={{ backgroundColor: 'purple', color: 'white' }}
               >
                 Rate Job
               </Button>
@@ -208,8 +209,8 @@ const ApplicationTile = (props) => {
           />
           <Button
             variant="contained"
-            color="primary"
-            style={{ padding: "10px 50px" }}
+        
+            style={{ padding: "10px 50px" , backgroundColor: 'purple', color:'white'}}
             onClick={() => changeRating()}
           >
             Submit

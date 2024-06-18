@@ -477,13 +477,14 @@ const Login = (props) => {
         <Grid item>
           <Button
             variant="contained"
-            color="primary"
+            
             onClick={() => {
               signupDetails.type === "applicant"
                 ? handleLogin()
                 : handleLoginRecruiter();
             }}
             className={classes.submitButton}
+            style={{ backgroundColor: 'purple', color: 'white'}}
           >
             Signup
           </Button>

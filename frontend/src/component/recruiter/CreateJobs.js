@@ -249,7 +249,7 @@ const CreateJobs = (props) => {
               <Button
                 variant="contained"
                 color="primary"
-                style={{ padding: "10px 50px", marginTop: "30px" }}
+                style={{ padding: "10px 50px", marginTop: "30px" , backgroundColor: 'purple', color:'white'}}
                 onClick={() => handleUpdate()}
               >
                 Create Job

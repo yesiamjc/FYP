@@ -381,7 +381,7 @@ const FilterPopup = (props) => {
             <Button
               variant="contained"
               color="primary"
-              style={{ padding: "10px 50px" }}
+              style={{ padding: "10px 50px",backgroundColor: 'purple', color:'white' }}
               onClick={() => getData()}
             >
               Apply
@@ -559,7 +559,7 @@ const ApplicationTile = (props) => {
           <Grid item>Role: {application.job.jobType}</Grid>
           <Grid item>Applied On: {appliedOn.toLocaleDateString()}</Grid>
           <Grid item>
-            SOP: {application.sop !== "" ? application.sop : "Not Submitted"}
+            About Him: {application.sop !== "" ? application.sop : "Not Submitted"}
           </Grid>
           <Grid item>
             {application.jobApplicant.skills.map((skill) => (
@@ -602,6 +602,7 @@ const ApplicationTile = (props) => {
               onClick={() => {
                 setOpen(true);
               }}
+              style={{ backgroundColor: 'purple', color:'white' }}
             >
               Rate Applicant
             </Button>
@@ -631,7 +632,7 @@ const ApplicationTile = (props) => {
           <Button
             variant="contained"
             color="primary"
-            style={{ padding: "10px 50px" }}
+            style={{ padding: "10px 50px", backgroundColor: 'purple', color: 'white' }}
             onClick={() => changeRating()}
           >
             Submit

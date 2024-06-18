@@ -31,7 +31,7 @@ const Navbar = (props) => {
   };
 
   return (
-    <AppBar position="fixed">
+    <AppBar position="fixed" style={{ backgroundColor: 'purple' }}>
       <Toolbar>
         <Typography variant="h6" className={classes.title}>
           Job Connect

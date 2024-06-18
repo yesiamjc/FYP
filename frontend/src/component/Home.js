@@ -134,6 +134,7 @@ const JobTile = (props) => {
               setOpen(true);
             }}
             disabled={userType() === "recruiter"}
+            style={{ backgroundColor: 'purple', color: 'white' }}
           >
             Apply
           </Button>
@@ -152,7 +153,7 @@ const JobTile = (props) => {
           }}
         >
           <TextField
-            label="Write SOP (upto 250 words)"
+            label="Write about yourself (upto 250 words)"
             multiline
             rows={8}
             style={{ width: "100%", marginBottom: "30px" }}
@@ -171,7 +172,7 @@ const JobTile = (props) => {
           <Button
             variant="contained"
             color="primary"
-            style={{ padding: "10px 50px" }}
+            style={{ padding: "10px 50px", backgroundColor: 'purple', color:'white' }}
             onClick={() => handleApply()}
           >
             Submit
@@ -501,8 +502,9 @@ const FilterPopup = (props) => {
             <Button
               variant="contained"
               color="primary"
-              style={{ padding: "10px 50px" }}
+              style={{ padding: "10px 50px", backgroundColor: 'purple', color:'white'}}
               onClick={() => getData()}
+              
             >
               Apply
             </Button>
