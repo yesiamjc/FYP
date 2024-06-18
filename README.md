@@ -43,12 +43,12 @@ Jobconnect is a final year project created by a team of four members: Joy Chakra
   - uuid
 
 ## File Structure
--backend/
---public/
---profile/
-----resume/
--frontend/
-README.md
+- backend/
+- -public/
+- -profile/
+- ---resume/
+- frontend/
+- README.md
 
 
 ## Setup Instructions
