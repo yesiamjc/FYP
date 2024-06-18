@@ -18,7 +18,6 @@ Jobconnect is a final year project created by a team of four members: Joy Chakra
   - @material-ui/lab
 - Axios
 - Material-UI Chip Input
-- React Phone Input 2
 
 ### Backend
 - Node.js
