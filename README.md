@@ -22,8 +22,8 @@ Jobconnect is a final year project created by a team of four members: Joy Chakra
 ### Backend
 - Node.js
 - Express.js
-- MongoDB (Mongoose)
-  - mongoose-type-email
+- MongoDB Atlas(Mongoose)
+  - mongoose
 - Authentication
   - bcrypt
   - jsonwebtoken
