@@ -1,4 +1,4 @@
-# Jobconnect
+# Job Connect
 
 ## Project Description
 Jobconnect is a final year project created by a team of four members: Joy Chakraborty, Sathi Ruidas, Priyanshu Burman, and Abhijit Shaw. This project aims to develop a job website using modern technologies, including MongoDB Atlas, React.js, Express.js, and Node.js. The project also utilizes Material-UI for CSS styling.
