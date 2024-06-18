@@ -1,65 +1,109 @@
-# Job Portal
+# Jobconnect
 
-Job Portal is a MERN Stack based web app which helps in streamlining the flow of job application process. It allows users to select there roles (applicant/recruiter), and create an account. In this web app, login session are persistent and REST APIs are securely protected by JWT token verification. After logging in, a recruiter can create/delete/update jobs, shortlist/accept/reject applications, view resume and edit profile. And, an applicant can view jobs, perform fuzzy search with various filters, apply for jobs with an SOP, view applications, upload profile picture, upload resume and edit profile. Hence, it is an all in one solution for a job application system.
+## Project Description
+Jobconnect is a final year project created by a team of four members: Joy Chakraborty, Sathi Ruidas, Priyanshu Burman, and Abhijit Shaw. This project aims to develop a job website using modern technologies, including MongoDB Atlas, React.js, Express.js, and Node.js. The project also utilizes Material-UI for CSS styling.
 
+## Team Members
+- Joy Chakraborty (10800220083)
+- Sathi Ruidas (10800220069)
+- Priyanshu Burman (10800220058)
+- Abhijit Shaw (10800220081)
 
-Directory structure of the web app is as follows:
-
-```
-- backend/
-    - public/
-        - profile/
-        - resume/
-- frontend/
-- README.md
-```
-
-## Instructions for initializing web app:
-
-- Install Node JS, MongoDB in the machine.
-- Start MongoDB server: `sudo service mongod start`
-- Move inside backend directory: `cd backend`
-- Install dependencies in backend directory: `npm install`
-- Start express server: `npm start`
-- Backend server will start on port 4444.
-- Now go inside frontend directory: `cd ..\frontend`
-- Install dependencies in frontend directory: `npm install`
-- Start web app's frontend server: `npm start`
-- Frontend server will start on port 3000.
-- Now open `http://localhost:3000/` and proceed creating jobs and applications by signing up in required categories.
-
-## Dependencies:
-
-- Frontend
+## Technologies Used
+### Frontend
+- React.js
+- Material-UI (for CSS styling)
   - @material-ui/core
   - @material-ui/icons
   - @material-ui/lab
-  - axios
-  - material-ui-chip-input
-  - react-phone-input-2
-- Backend
+- Axios
+- Material-UI Chip Input
+- React Phone Input 2
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+  - mongoose-type-email
+- Authentication
   - bcrypt
+  - jsonwebtoken
+  - passport
+  - passport-jwt
+  - passport-local
+- Middleware
   - body-parser
   - connect-flash
   - connect-mongo
   - cors
-  - crypto
-  - express
   - express-session
-  - jsonwebtoken
-  - mongoose
-  - mongoose-type-email
+- File Uploads
   - multer
-  - passport
-  - passport-jwt
-  - passport-local
+- Utilities
+  - crypto
   - uuid
 
-# Machine Specifications
+## File Structure
+-backend/
+--public/
+--profile/
+----resume/
+-frontend/
+README.md
 
-Details of the machine on which the webapp was tested:
 
-- Operating System: Elementary OS 5.1 (Hera)
-- Terminal: Bash
-- Processor: Intel Core i7-8750H CPU @ 2.20 GHz 2.21 GHz
-- RAM: 16 GB
+## Setup Instructions
+### Prerequisites
+- Node.js
+- MongoDB
+
+### Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-repo/jobconnect.git
+    ```
+
+2. Start the MongoDB server:
+    ```bash
+    sudo service mongod start
+    ```
+
+3. Navigate to the `backend` directory and install dependencies:
+    ```bash
+    cd backend
+    npm install
+    ```
+
+4. Start the Express server:
+    ```bash
+    npm start
+    ```
+    The backend server will start on port 4444.
+
+5. Navigate to the `frontend` directory and install dependencies:
+    ```bash
+    cd ../frontend
+    npm install
+    ```
+
+6. Start the frontend server:
+    ```bash
+    npm start
+    ```
+    The frontend server will start on port 3000.
+
+7. Open your browser and go to:
+    ```bash
+    http://localhost:3000/
+    ```
+    Proceed with creating jobs and applications by signing up in the required categories.
+
+### Environment Variables
+Create a `.env` file in the `backend` directory and add the following:
+MONGO_URI=your_mongodb_uri
+
+
+## Contribution
+Contributions are welcome. Please create an issue or submit a pull request for any feature requests or bug fixes.
+
+
