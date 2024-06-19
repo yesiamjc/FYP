@@ -38,32 +38,20 @@ Jobconnect is a final year project created by a team of four members: Joy Chakra
   - uuid
 
 ## Directory Structure
-Job-Connect-Application
-│
-├── info.txt
-├── PPT
-│ └── Presentation on JobConnectPortal.pptx
-│
-├── Documents
-│ ├── A Project Report on JobConnectPortal.pdf
-│ └── A Project Report on JobConnectPortal.docx
-│
-├── Source Code
-│ ├── JobConnectPortal
-│ │ ├── frontend
-│ │ │ ├── src
-│ │ │ │ ├── components
-│ │ │ │ │ ├── recruiter
-│ │ │ │ ├── lib
-│ │ ├── backend
-│ │ │ ├── lib
-│ │ │ ├── dib
-│ │ │ ├── routes
-│ │ │ │ ├── public
-│ │ │ │ ├── profile
-│ │ │ │ │ ├── resume
-│ │ │ │ │ ├── profile
-├── env
+- frontend/
+- -public/
+- -src/
+- --component/
+- ---recruiter/
+- --lib/
+- backend/
+- lib/
+- dib/
+- routes/
+- -public/
+- -profile/
+- ---resume/
+- ---profile/
 
 ## Setup Instructions
 ### Prerequisites
