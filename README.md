@@ -42,29 +42,28 @@ Job-Connect-Application
 │
 ├── info.txt
 ├── PPT
-│   └── Presentation on JobConnectPortal.pptx
+│ └── Presentation on JobConnectPortal.pptx
 │
 ├── Documents
-│   ├── A Project Report on JobConnectPortal.pdf
-│   └── A Project Report on JobConnectPortal.docx
+│ ├── A Project Report on JobConnectPortal.pdf
+│ └── A Project Report on JobConnectPortal.docx
 │
 ├── Source Code
-│   ├── JobConnectPortal
-│   │   ├── frontend
-│   │   │   ├── src
-│   │   │   │   ├── components
-│   │   │   │   │   ├── recruiter
-│   │   │   │   ├── lib
-│   │   ├── backend
-│   │   │   ├── lib
-│   │   │   ├── dib
-│   │   │   ├── routes
-│   │   │   │   ├── public
-│   │   │   │   ├── profile
-│   │   │   │   │   ├── resume
-│   │   │   │   │   ├── profile
+│ ├── JobConnectPortal
+│ │ ├── frontend
+│ │ │ ├── src
+│ │ │ │ ├── components
+│ │ │ │ │ ├── recruiter
+│ │ │ │ ├── lib
+│ │ ├── backend
+│ │ │ ├── lib
+│ │ │ ├── dib
+│ │ │ ├── routes
+│ │ │ │ ├── public
+│ │ │ │ ├── profile
+│ │ │ │ │ ├── resume
+│ │ │ │ │ ├── profile
 ├── env
-
 
 ## Setup Instructions
 ### Prerequisites
