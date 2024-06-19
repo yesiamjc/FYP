@@ -51,7 +51,8 @@ Jobconnect is a final year project created by a team of four members: Joy Chakra
 - -public/
 - -profile/
 - ---resume/
-- ---profile/
+- - ---profile/
+- 
 
 ## Setup Instructions
 ### Prerequisites
