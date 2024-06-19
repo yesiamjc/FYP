@@ -64,7 +64,7 @@ Job-Connect-Application
 │ │ │ │ ├── profile
 │ │ │ │ │ ├── resume
 │ │ │ │ │ ├── profile
-├── env
+└── env
 ```
 
 ## Setup Instructions
