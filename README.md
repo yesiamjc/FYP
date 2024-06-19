@@ -1,13 +1,8 @@
-# Job Connect
+# Job Connect Application
 
 ## Project Description
 Jobconnect is a final year project created by a team of four members: Joy Chakraborty, Sathi Ruidas, Priyanshu Burman, and Abhijit Shaw. This project aims to develop a job website using modern technologies, including MongoDB Atlas, React.js, Express.js, and Node.js. The project also utilizes Material-UI for CSS styling.
 
-## Team Members
-- Joy Chakraborty (10800220083)
-- Sathi Ruidas (10800220069)
-- Priyanshu Burman (10800220058)
-- Abhijit Shaw (10800220081)
 
 ## Technologies Used
 ### Frontend
@@ -42,13 +37,33 @@ Jobconnect is a final year project created by a team of four members: Joy Chakra
   - crypto
   - uuid
 
-## File Structure
-- backend/
-- -public/
-- -profile/
-- ---resume/
-- frontend/
-- README.md
+## Directory Structure
+Job-Connect-Application
+│
+├── info.txt
+├── PPT
+│   └── Presentation on JobConnectPortal.pptx
+│
+├── Documents
+│   ├── A Project Report on JobConnectPortal.pdf
+│   └── A Project Report on JobConnectPortal.docx
+│
+├── Source Code
+│   ├── JobConnectPortal
+│   │   ├── frontend
+│   │   │   ├── src
+│   │   │   │   ├── components
+│   │   │   │   │   ├── recruiter
+│   │   │   │   ├── lib
+│   │   ├── backend
+│   │   │   ├── lib
+│   │   │   ├── dib
+│   │   │   ├── routes
+│   │   │   │   ├── public
+│   │   │   │   ├── profile
+│   │   │   │   │   ├── resume
+│   │   │   │   │   ├── profile
+├── env
 
 
 ## Setup Instructions
@@ -96,6 +111,12 @@ Jobconnect is a final year project created by a team of four members: Joy Chakra
 Create a `.env` file in the `backend` directory and add the following:
 MONGO_URI=your_mongodb_uri
 
+
+## Team Members
+- [Priyanshu Burman](https://www.linkedin.com/in/priyanshu-burman-4b335828b/) (10800220058)
+- [Sathi Ruidas](https://www.linkedin.com/in/sathi-ruidas-372409210/) (10800220069)
+- [Abhijit Shaw](https://www.linkedin.com/in/abhijit-shaw-78077122a/) (10800220081)
+- [Joy Chakraborty](https://www.linkedin.com/in/yesiamjc/) (10800220083)
 
 ## Contribution
 Contributions are welcome. Please create an issue or submit a pull request for any feature requests or bug fixes.
